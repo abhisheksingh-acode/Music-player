@@ -19,11 +19,11 @@ const audio  = document.querySelector("audio");
  },
     {
     name:"Jubin",
-    artist:"tujhe kitna chahne",
+    artist:"tujhe kitna chahne lage",
     link:"https://cdnm.meln.top/mx/Jubin Nautiyal - Tujhe Kitna Chahein Aur.mp3?hash=NDc0NDk5MzI5LzQ1NjM2NDc1My5tcDM="
  },
     {
-    name:"random",
+    name:"teri muhabbat",
     artist:"jubin ",
     link:"https://dlserver.ru/?3uo-Wv6kd48ZhrGm98EPjcnJWUTM8LfpRvwMNvc9acYmmET9FK6YQQW-ixEWkIIUCJoYDWTyUPg2OYf3qt2x2TjHR8_rO-0ODMXKLQyFgouPZ7gvNl3aqg0q_y76mz8Oclkl5s5dVWdv5ZjyOYlNvw5yOWJsi49fO1nGBIYGJbxvUvDhTj8Pd84NKc9zlS17gqJ_ajRi0TgJeWoBJhJB5BNbPH7CU3usKr8dpPrCGm9E7C39oXQu27d06i6Nvi6PpVhKWa5d6gyuY36TIbDt74qtgek_r-n5AicvTyZKfPumOPc3J2C9QlcrpDOSkCz-ug9VB-DXqkvNZQu0w9oBLg==.mp3"
  },
