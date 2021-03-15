@@ -18,8 +18,8 @@ const audio  = document.querySelector("audio");
     link:"https://pl.meln.top/mr/d18e94060b3d457301b20d943acb9390.mp3?session_key=60c0058fb49537234044715aadae8cd8"
  },
     {
-    name:"Jubin",
-    artist:"tujhe kitna chahne lage",
+    name:"tujhe kitna chahne lage",
+    artist:"jubin",
     link:"https://cdnm.meln.top/mx/Jubin Nautiyal - Tujhe Kitna Chahein Aur.mp3?hash=NDc0NDk5MzI5LzQ1NjM2NDc1My5tcDM="
  },
     {
