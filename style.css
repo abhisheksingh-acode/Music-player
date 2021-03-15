@@ -1,0 +1,134 @@
+body{
+   margin: 0;
+   padding: 0;
+}
+.container{
+   width: 100vw;
+   height: 100vh;
+   background-image: linear-gradient(rgb(150, 182, 201));
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.colorChange{
+   animation: colorChange 3s linear infinite ;
+}
+@keyframes colorChange{
+   0%{
+      background-image: linear-gradient(rgb(150, 182, 201),rgb(135, 228, 204));
+   }
+   20%{
+      background-image:linear-gradient(rgb(150, 182, 201),rgb(189, 250, 227));
+   }
+   50%{
+      background-image: linear-gradient(rgb(150, 182, 201),rgb(135, 228, 204));
+   }
+   75%{
+      background-image: linear-gradient(rgb(150, 182, 201),rgb(238, 172, 172));
+   }
+   100%{
+      background-image: linear-gradient(rgb(150, 182, 201),rgb(135, 228, 204));
+   }
+}
+.musicBox{
+   width: 300px;
+   height: auto;
+   background: rgb(255, 255, 255);
+   box-shadow: 0 8px 32px 0 rgba(78, 74, 74, 0.37);
+   backdrop-filter: blur( 4.0px );
+   -webkit-backdrop-filter: blur( 4.0px );
+   border-radius: 10px;
+   border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.title{
+   padding: 0;
+   margin: 0;
+   text-align: center;
+   color: rgb(63, 62, 62);
+   font-family: cursive;
+  
+}
+.artist{
+   padding: 0;
+   margin: 0;
+   text-align: center;
+   color: rgb(71, 69, 69);
+   font-family: Geneva, Tahoma, sans-serif;
+   font-weight: lighter;
+}
+.thumbnail{
+   width: 150px;
+   height:150px;
+   border-radius:  50%;
+   background-color: rgb(109, 106, 106);
+   overflow: hidden;
+   background-image: url("https://www.blhsnews.com/wp-content/uploads/2018/11/apple-music-note-800x420.jpg");
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   margin:10px auto;
+  
+}
+.rotator{
+   animation: rotate 2s linear infinite;
+}
+@keyframes rotate{
+   from{
+      transform: rotate(0deg);
+   }
+   to{
+      transform: rotate(361deg);
+   }
+}
+.progress-container{
+   width: 90%;
+   margin: auto;
+   display: flex;
+   justify-content: space-between;
+}
+.progressBarContainer{
+   width: 90%;
+   margin: 5px auto;
+   height: 7px;
+   box-shadow: 0px 2px 4px -4px black,0px -1px 4px -4px black;
+   border-radius: 10px;
+}
+.progress-bar{
+   width:0;
+   height: 100%;
+   box-sizing: border-box;
+   background-color: cornflowerblue;
+   border-radius: 10px;
+
+}
+.controller{
+   height: 50px;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+}
+.controller button{
+   border: none;
+   background: none;
+   outline: none;
+}
+.fas {
+   background: -webkit-linear-gradient(rgb(6, 7, 6), rgb(28, 28, 31));
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   cursor: pointer;
+}
+.controller .fas:hover{
+      background: -webkit-linear-gradient(rgb(225, 236, 236), rgb(221, 222, 231));
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+
+@media all and (max-width:768px){
+   .controller .fas:hover{
+      background: -webkit-linear-gradient(rgb(6, 7, 6), rgb(28, 28, 31));
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   cursor: pointer;
+   }
+}
