@@ -13,19 +13,19 @@ const audio  = document.querySelector("audio");
 
  let musicList = [
     {
-    name:"tum bin",
-    artist:"shreya ",
-    link:"https://pl.meln.top/mr/a2be8d53e90ca6e33b844dd9c858a838.mp3?session_key=440fd92a0416f4be718338eb225a5ae5"
+    name:"Jaan nisaar",
+    artist:"arijit ",
+    link:"https://pl.meln.top/mr/d18e94060b3d457301b20d943acb9390.mp3?session_key=60c0058fb49537234044715aadae8cd8"
  },
     {
-    name:"closer",
-    artist:"taylor swift ",
-    link:"https://cdnm.meln.top/mr/Taylor%20Swift%20-%20closure.mp3?session_key=13aaa12b6a0394bf3cbc28ea4eb4cde9&hash=24038c3d6339145a75e5a068282f534d"
+    name:"Jubin",
+    artist:"tujhe kitna chahne",
+    link:"https://cdnm.meln.top/mx/Jubin Nautiyal - Tujhe Kitna Chahein Aur.mp3?hash=NDc0NDk5MzI5LzQ1NjM2NDc1My5tcDM="
  },
     {
     name:"random",
-    artist:"arijit singh ",
-    link:"https://dlserver.ru/?3uo-Wv6kd48ZhrGm98EPjcnJWUTM8LfpRvwMNvc9acYgnEr3FameShvzkGcQk9I3YKc5EDr5T9Y3KZSS8f6561nFFKn_MMAWF-zZLVCcjO_HXKsbf1DMzAE2rDjmpQQCQXIb9JtmYA5rza3JV65Zm3pialtuqaJLfFHuFecVGchMf8j8bSBqb_hyVroatEZmrIMZOAZ15DY5bE9xRDtN1iQ-FXDTbHqvQpYShcLaLCwMzxeAkFQU3Yxr8B68qRfaoHFRY4xvkFCyT0GAVb3PnqqClY134fHlCic1TztCZ-inbP0ifyGgQxthrjOC4mzsvlYZAfzTphGOcxbzit9caZV2b9_dUI_PdAzTSGPRrbJv2c_8CNuvsEYxTg==.mp3"
+    artist:"jubin ",
+    link:"https://dlserver.ru/?3uo-Wv6kd48ZhrGm98EPjcnJWUTM8LfpRvwMNvc9acYmmET9FK6YQQW-ixEWkIIUCJoYDWTyUPg2OYf3qt2x2TjHR8_rO-0ODMXKLQyFgouPZ7gvNl3aqg0q_y76mz8Oclkl5s5dVWdv5ZjyOYlNvw5yOWJsi49fO1nGBIYGJbxvUvDhTj8Pd84NKc9zlS17gqJ_ajRi0TgJeWoBJhJB5BNbPH7CU3usKr8dpPrCGm9E7C39oXQu27d06i6Nvi6PpVhKWa5d6gyuY36TIbDt74qtgek_r-n5AicvTyZKfPumOPc3J2C9QlcrpDOSkCz-ug9VB-DXqkvNZQu0w9oBLg==.mp3"
  },
     {
     name:"Binte dil",
