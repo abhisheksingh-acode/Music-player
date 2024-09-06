@@ -12,6 +12,11 @@ const audio  = document.querySelector("audio");
 
 
  let musicList = [
+  {
+    name:"Sample Code",
+    artist:"Website ",
+    link:"https://onlinetestcase.com/wp-content/uploads/2023/06/1-MB-MP3.mp3"
+ },
     {
     name:"Jaan nisaar",
     artist:"arijit ",
